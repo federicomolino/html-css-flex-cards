@@ -48,10 +48,13 @@ p{
 
 .info h3{
     color: white;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .info h5{
     color: white;
+    font-size: 18x;
 }
 
 .info span{
