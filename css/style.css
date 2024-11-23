@@ -6,8 +6,8 @@
 
 main{
     margin: 0 auto;
-    margin-top: 80px;
-    max-width: 900px;
+    margin-top: 60px;
+    max-width: 1300px;
 }
 
 h1{
@@ -22,8 +22,8 @@ p{
 }
 .container{
     display: flex;
-    column-gap: 10px;
     flex-wrap: wrap;
+    column-gap: 10px;
 }
 
 .container-block{
@@ -32,7 +32,7 @@ p{
     width: 400px;
     background-color: black;
     margin-top: 40px;
-    flex-basis: calc((100% / 3) - 10px);
+    flex-basis: calc((100% / 3)-10px);
 }
 
 .style-img{
@@ -42,8 +42,17 @@ p{
 .info{
     display: flex;
     flex-direction: column;
+    margin: 12px;
 }
 
-h3{
+.info h3{
     color: white;
+}
+
+.info h5{
+    color: white;
+}
+
+.info span{
+    color: #4ea8ff;
 }
