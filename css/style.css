@@ -28,11 +28,10 @@ p{
 
 .container-block{
     display: flex;
-    height: 120px;
+    height: 100px;
     width: 400px;
     background-color: black;
     margin-top: 40px;
-    flex-basis: calc((100% / 3)-10px);
 }
 
 .style-img{
@@ -42,6 +41,7 @@ p{
 .info{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin: 12px;
 }
 
