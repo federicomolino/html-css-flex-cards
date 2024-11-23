@@ -4,6 +4,46 @@
     box-sizing: border-box;
 }
 
+main{
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 900px;
+}
+
 h1{
-    color: violet
+    color: violet;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    padding-top: 40px;
+}
+.container{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.container-block{
+    display: flex;
+    height: 120px;
+    width: 400px;
+    background-color: black;
+    margin-top: 40px;
+    flex-basis: calc((100% / 3) - 10px);
+}
+
+.style-img{
+    height: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    color: white;
 }
