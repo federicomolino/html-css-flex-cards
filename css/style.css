@@ -57,9 +57,9 @@ p{
 
 .info h5{
     color: white;
-    font-size: 18x;
 }
 
 .info span{
     color: #4ea8ff;
+    cursor: pointer;
 }
