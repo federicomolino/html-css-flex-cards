@@ -11,7 +11,8 @@ main{
 }
 
 h1{
-    color: violet;
+    color: #FF4C77;
+    font-family:'Arial', sans-serif;
     text-align: center;
     font-weight: bold;
 }
