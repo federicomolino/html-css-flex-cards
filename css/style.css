@@ -59,7 +59,6 @@ p{
     color: white;
 }
 
-.info span{
+.info a{
     color: #4ea8ff;
-    cursor: pointer;
 }
